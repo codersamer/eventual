@@ -1,0 +1,29 @@
+{
+    "name": "codersamer/eventual",
+    "description": "Events, Actions and Filters Management Library like WordPress ones",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Codersamer\\Eventual\\": "src/"
+        },
+        "files": ["src/Helpers/eventual.php"]
+    },
+    "authors": [
+        {
+            "name": "Samer Moustafa",
+            "email": "coder.sam@outlook.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codersamer\\Eventual\\Providers\\EventualServiceProvider"
+            ],
+            "aliases": {
+                "Eventual" : "Codersamer\\Eventual\\Facades\\Eventual"
+            }
+        }
+    }
+}
