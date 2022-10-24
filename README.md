@@ -40,4 +40,4 @@ Eventual::onFilter($name, function($name){
 	return $name;
 });
 ```
-For Comprehensive and Detail Guide Please [Follow this Link](https://codersam.website/tutorials/laravel-actions-and-filters-like-wordpress)
+For Comprehensive and Detail Guide Please [Follow this Link](https://codersam.website/tutorials/how-to-use-laravel-eventual-package/)
